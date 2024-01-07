@@ -24,6 +24,9 @@ function updateFeatures(version)
     g_game.enableFeature(GameNewOutfitProtocol)
     g_game.enableFeature(GameWritableDate)
 	
+	g_game.enableFeature(GameWingsAndAura)
+	g_game.enableFeature(GameOutfitShaders)
+	
 	-- customs
 	--g_game.enableFeature(GameIngameStore)
 	g_game.enableFeature(GamePlayerMarket)

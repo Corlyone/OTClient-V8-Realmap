@@ -14,6 +14,12 @@ function init()
 
   g_shaders.createOutfitShader("Rainbow Outfit", "/shaders/outfit_rainbow_vertex", "/shaders/outfit_rainbow_fragment")
   g_shaders.addTexture("Rainbow Outfit", "/images/shaders/rainbow.png")
+  
+  g_shaders.createOutfitShader("Brazil", "/shaders/outfit_brazil_vertex", "/shaders/outfit_brazil_fragment")
+  g_shaders.addTexture("Brazil", "/images/shaders/brazil.png")
+  
+  g_shaders.createOutfitShader("Stars", "/shaders/outfit_stars_vertex", "/shaders/outfit_stars_fragment")
+	g_shaders.addTexture("Stars", "/images/shaders/stars.png")
 
   -- you can use creature:setOutfitShader("outfit_rainbow") to set shader
 
